@@ -1,0 +1,41 @@
+{
+  "name": "aurelienzmn/x-access-token",
+  "description": "Craft CMS plugin to add 'x-access-token' Authentification capability",
+  "type": "craft-plugin",
+  "version": "0.0.1",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "x-access-token"
+  ],
+  "support": {
+    "docs": "https://github.com/AurelienZMN/x-access-token/blob/master/README.md",
+    "issues": "https://github.com/AurelienZMN/x-access-token/issues"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aurelien Zimmermann",
+      "homepage": "https://github.com/AurelienZMN"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "aurelienzmn\\xaccesstoken\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "x-access-token",
+    "handle": "x-access-token",
+    "developer": "Aurelien Zimmermann",
+    "developerUrl": "https://github.com/AurelienZMN",
+    "documentationUrl": "https://github.com/AurelienZMN/x-access-token/blob/master/README.md",
+    "changelogUrl": "https://raw.githubusercontent.com/AurelienZMN/x-access-token/master/CHANGELOG.md",
+    "class": "aurelienzmn\\xaccesstoken\\Xaccesstoken"
+  }
+}
